@@ -11,11 +11,15 @@
 
   <body>
     <%= render 'layouts/header' %>
+    <br>
+    <br>
+    <br>
 
     <div class="container">
       <p id="notice"><%= notice %></p>
-
     </div>
+
+    <%= yield %>
 
     <%= render 'layouts/footer' %>
   </body>
